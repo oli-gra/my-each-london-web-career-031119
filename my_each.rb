@@ -5,7 +5,7 @@ def my_each(array)
   end
 end
 
-rando = ["seven","deadly","sins"]
-my_each(rando) do |i|
+rand = ["seven","deadly","sins"]
+my_each(rand) do |i|
   puts i
 end
