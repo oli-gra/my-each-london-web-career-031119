@@ -6,6 +6,6 @@ def my_each(array)
 end
 
 rando = ["seven","deadly","sins"]
-my_each(rando) do [i]
+my_each(rando) do |i|
   puts i
 end
