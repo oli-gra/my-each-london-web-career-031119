@@ -4,8 +4,3 @@ def my_each(array)
     i += 1
   end
 end
-
-rand = [1,2,3]
-my_each(rand) do |i|
-  puts i
-end
