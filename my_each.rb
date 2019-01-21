@@ -4,3 +4,8 @@ def my_each(array)
     i += 1
   end
 end
+
+rando = ["seven","deadly","sins"]
+my_each(rando) do [i]
+  puts i
+end
