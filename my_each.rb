@@ -2,8 +2,8 @@ def my_each(array)
   i=0
   new_arr = []
   while i < array.length
-    new_arr[i] = yield array[i]
+    new_arr = yield array[i]
     i += 1
   end
-  new-arr
+  new_arr
 end
